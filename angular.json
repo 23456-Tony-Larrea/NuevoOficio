@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "GEDI"
+  "defaultProject": "GEDI",
+  "cli": {
+    "analytics": "dcbd1a1f-2026-4bd3-a95b-465d0ed3f8b1"
+  }
 }

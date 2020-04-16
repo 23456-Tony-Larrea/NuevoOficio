@@ -14,6 +14,7 @@ import { SolicitudesTitulacionComponent } from './elaborador/solicitudes-titulac
 import { AuthGuard } from './guards/auth.guard';
 import { GestionUsuariosComponent } from './admin/gestion-usuarios/gestion-usuarios.component';
 import { AccesoDenegadoComponent } from './admin/acceso-denegado/acceso-denegado.component';
+import {CardsComponent}from './visualizador/cards/cards.component'
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'login' },
   { path: 'login', component: LoginComponent },
@@ -27,8 +28,9 @@ const routes: Routes = [
    {path:"actasReuniones",component:ActasReunionesComponent, canActivate: [AuthGuard] },
    {path:"solicitudes-titulacion",component:SolicitudesTitulacionComponent, canActivate: [AuthGuard] },
    {path:"gestion-usuarios",component:GestionUsuariosComponent, canActivate: [AuthGuard] },
-   {path:"acceso-denegado",component:AccesoDenegadoComponent, canActivate: [AuthGuard] }
-]
+   {path:"acceso-denegado",component:AccesoDenegadoComponent, canActivate: [AuthGuard] },
+  {path:'cards',component:CardsComponent}
+  ]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

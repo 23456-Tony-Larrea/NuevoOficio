@@ -1,0 +1,98 @@
+.bj{
+    color:#FF5733 ;
+    text-align: center;
+    font-size: 30;
+    }
+    .bj1{
+        color:black ;
+        text-align: center;
+        font-size: 30; 
+    }
+    .contenedor1{
+        
+        width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
+        height:700px;
+    }
+    .img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 20px;
+    }
+    .img2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 20px;   
+    }
+    .contenedor2{
+    
+        width: 1500px;
+        height:700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 20px; 
+        width: 200px; 
+        height: 200px  
+    }
+    .contenedor3{
+        
+        width: 1500px;
+        height:700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor4{
+             
+                background-image: url("https://3.bp.blogspot.com/-O_-vOlwC0U4/WpYzNKyUWmI/AAAAAAAAAD4/jE8-zI18VjMyK9iMTBpaUY0exLxiFUOzgCLcBGAs/s1600/YAVIRAC.jpg");
+                
+                        height: 100%;
+            
+                        background-position: center;
+                        background-repeat:no-repeat;
+                       
+                       background-size: cover;
+                        width: 100%; 
+        padding-left: 2%;
+        padding-right: 2%;  
+        }
+        .titulo{
+            font: 32px "Comic Sans MS", cursive;
+            text-align: left;
+            color:aqua;
+        }
+    
+    .contenedor5{
+        background-image: url("https://3.bp.blogspot.com/-O_-vOlwC0U4/WpYzNKyUWmI/AAAAAAAAAD4/jE8-zI18VjMyK9iMTBpaUY0exLxiFUOzgCLcBGAs/s1600/YAVIRAC.jpg");
+                
+        height: 100%;
+    
+        background-position: center;
+        background-repeat:no-repeat;
+       
+       background-size: cover;
+        width: 100%; 
+        /*margin-top: 20%;*/
+    }
+
+    .menu{
+        padding-bottom: 10%;
+    }
+    .example-card {
+        max-width: 200px; 
+        width: 300px;
+        float: left;
+        margin-left: 2%;
+        margin-top: 2%;
+      }
+      .example-header-image {
+        background-image: url('../../assets/One_User_Orange.png');
+        background-size: cover;
+      }

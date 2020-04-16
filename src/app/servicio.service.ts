@@ -47,7 +47,9 @@ export class ServicioService {
   updateUser(user: UserData){
     return this.http.post(this.api_GEDI_url + '/updateById', user);
   }
-
+  getDocumentos(){
+    return this.http.get(this.api_GEDI_url + '/getDocumentos');
+  }
   //For Logged auth user
   setUser(user: User): void {
     let user_string = JSON.stringify(user);

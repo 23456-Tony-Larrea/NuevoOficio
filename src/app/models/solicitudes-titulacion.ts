@@ -1,5 +1,6 @@
 export class SolicitudesTitulacion{
         sumillas:string;
+        codigoDocumento:string;
         destinatario:string;
         presentacionSolicitante:string;
         cuerpo:string;
@@ -9,6 +10,8 @@ export class SolicitudesTitulacion{
         listaIng:Ing[]=[];
         cedula:string
         titulacion:string
+        fechaCodigo:string;
+        
         constructor(){
             this.listaIng.push(new Ing())
     

@@ -1,0 +1,31 @@
+.example-card {
+    max-width: 200px; 
+    width: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  .example-header-image {
+    background-image: url('../../../assets/One_User_Orange.png');
+    background-size: cover;
+  }
+  .example-card2 {
+    max-width: 200px; 
+    width: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  .example-header-image2 {
+    background-image: url('../../../assets/One_User_Orange.png');
+    background-size: cover;
+  }
+  /*   .card1{
+      margin-left: 2%;
+      margin-top: 2%;
+      margin-right: 90%;
+  }
+  .card2{
+    margin-left: 10%;
+    margin-top: 2%;
+} */
