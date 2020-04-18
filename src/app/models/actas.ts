@@ -6,6 +6,8 @@ export class Actas {
     despedida : string
     codigoDocumento:string;
     fechaCodigo:string;
+    InstitutoPertenciciente:string;
+    logoPic:string;
     constructor(){
         this.ordenDelDia.push(new Orden())
     }

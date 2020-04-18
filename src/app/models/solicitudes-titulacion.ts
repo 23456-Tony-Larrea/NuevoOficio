@@ -1,4 +1,5 @@
 export class SolicitudesTitulacion{
+        logoPic: string;
         sumillas:string;
         codigoDocumento:string;
         destinatario:string;
@@ -11,7 +12,7 @@ export class SolicitudesTitulacion{
         cedula:string
         titulacion:string
         fechaCodigo:string;
-        
+        InstitutoPertenciciente:string
         constructor(){
             this.listaIng.push(new Ing())
     

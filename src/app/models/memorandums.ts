@@ -5,5 +5,8 @@ export class Memorandums {
     asunto : string
     cuerpo : string
     despedida : string
-
+    codigoDocumento:string;
+    fechaCodigo:string
+    InstitutoPertenciciente:string
+    logoPic:string
 }

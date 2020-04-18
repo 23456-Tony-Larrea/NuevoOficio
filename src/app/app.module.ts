@@ -29,7 +29,6 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatIconModule } from "@angular/material/icon";
 import { ActasReunionesComponent } from './elaborador/actas-reuniones/actas-reuniones.component';
-import {AutocompleteLibModule} from 'angular-ng-autocomplete';
 import { SolicitudesTitulacionComponent } from './elaborador/solicitudes-titulacion/solicitudes-titulacion.component';
 import { GestionUsuariosComponent } from './admin/gestion-usuarios/gestion-usuarios.component';
 import { AccesoDenegadoComponent } from './admin/acceso-denegado/acceso-denegado.component';
@@ -45,6 +44,7 @@ import { MatSortModule } from "@angular/material/sort";
 import { CardsComponent } from './visualizador/cards/cards.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { MatCardModule} from  '@angular/material/card';
+import {AutocompleteLibModule} from 'angular-ng-autocomplete';
 @NgModule({
   declarations: [
     AppComponent,

@@ -52,7 +52,18 @@
               </h4>
               <button class="btn btn-primary" (click)="agregarCatalogo()">+</button>
             </div>
-            <div class="row" *ngFor="let ed of solicitud.listaIng; let i=index">
+            <ng-autocomplete
+  [data]="listaProf"
+  [searchKeyword]="keyword"
+  (selected)='selectDestinatario($event)'
+  
+  [itemTemplate]="itemTemplate"                                 
+            ></ng-autocomplete>
+ 
+<ng-template #itemTemplate let-item>
+<a [innerHTML]="item.name"></a>
+</ng-template>
+            <!-- <div class="row" *ngFor="let ed of solicitud.listaIng; let i=index">
               <div class="col-md-6">
                 <div class="form-group">
                   <select class="form-control" (change)="evento($event)" placeholder="Destinatario" name="catalogo{{i}}"
@@ -62,7 +73,7 @@
                   </select>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
